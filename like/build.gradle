@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+jar{
+    enabled = false
+}
+bootJar{
+    enabled = true
+}
+
+group = 'me.devksh930.practice'
+version = '0.0.1-SNAPSHOT'
+
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.28'
+    compileOnly 'org.projectlombok:lombok:0.9.2'
+}
+
+test {
+    useJUnitPlatform()
+}
