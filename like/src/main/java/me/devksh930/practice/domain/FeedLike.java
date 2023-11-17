@@ -12,24 +12,24 @@ import lombok.NoArgsConstructor;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class FeedCounter {
+public class FeedLike {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private long likeCount;
+    private Long userId;
+
+    private Long feedId;
+
     @Builder
-    public FeedCounter(final Long id, final long likeCount) {
+    public FeedLike(
+        final Long id,
+        final Long userId,
+        final Long feedId
+    ) {
         this.id = id;
-        this.likeCount = likeCount;
-    }
-
-    public void increaseCount() {
-        this.likeCount += 1;
-    }
-
-    public void decreaseCount() {
-        this.likeCount -= 1;
+        this.userId = userId;
+        this.feedId = feedId;
     }
 }

@@ -1,4 +1,9 @@
 package me.devksh930.practice.repository;
 
-public interface LikeRepository extends org.springframework.data.jpa.repository.JpaRepository<me.devksh930.practice.domain.Like, java.lang.Long> ,org.springframework.data.jpa.repository.JpaSpecificationExecutor<me.devksh930.practice.domain.Like> {
+import me.devksh930.practice.domain.FeedLike;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LikeRepository extends JpaRepository<FeedLike, Long> {
+
+    boolean existsByFeedIdAndUserId(final Long feedId, final Long UserId);
 }
