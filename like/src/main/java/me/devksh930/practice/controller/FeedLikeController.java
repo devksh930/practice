@@ -18,7 +18,7 @@ public class FeedLikeController {
     private final FeedLikeService feedLikeService;
     @PostMapping
     public ResponseEntity<Void> feedLike(
-        @PathVariable("feedId")final Long feedId,
+        @PathVariable("feedId") final Long feedId,
         @RequestBody final FeedLikeRequest request
     ) {
         feedLikeService.like(feedId, request);
