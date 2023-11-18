@@ -20,18 +20,19 @@ public class AfterFeedLikeService implements FeedLikeService {
     @Transactional
     @Override
     public void like(final Long feedId, final FeedLikeRequest request) {
-
+        //조회
         likeDuplicateCheck(feedId, request);
 
         final FeedLike create = FeedLike.builder()
             .userId(request.userId())
             .feedId(feedId)
             .build();
+        //저장
         feedLikeRepository.save(create);
 
         final FeedCounter feedCounter = feedCounterRepository.findByFeedId(feedId)
             .orElseThrow();
-
+        //영속상태에서의 업데이트
         feedCounter.increaseCount();
     }
 
