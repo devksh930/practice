@@ -1,6 +1,6 @@
-package me.devksh930.practice.service;
+package me.devksh930.practice.like.service;
 
-import me.devksh930.practice.dto.FeedLikeRequest;
+import me.devksh930.practice.like.dto.FeedLikeRequest;
 
 public interface FeedLikeService {
 

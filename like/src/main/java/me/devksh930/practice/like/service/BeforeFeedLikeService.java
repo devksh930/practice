@@ -1,11 +1,11 @@
-package me.devksh930.practice.service;
+package me.devksh930.practice.like.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import me.devksh930.practice.domain.FeedLike;
-import me.devksh930.practice.dto.FeedLikeRequest;
-import me.devksh930.practice.repository.FeedCounterRepository;
-import me.devksh930.practice.repository.FeedLikeRepository;
+import me.devksh930.practice.like.domain.FeedLike;
+import me.devksh930.practice.like.dto.FeedLikeRequest;
+import me.devksh930.practice.like.repository.FeedCounterRepository;
+import me.devksh930.practice.like.repository.FeedLikeRepository;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

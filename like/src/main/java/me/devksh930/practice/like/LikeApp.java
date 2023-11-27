@@ -1,4 +1,4 @@
-package me.devksh930.practice;
+package me.devksh930.practice.like;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

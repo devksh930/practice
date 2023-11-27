@@ -1,8 +1,8 @@
-package me.devksh930.practice.controller;
+package me.devksh930.practice.like.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.devksh930.practice.dto.FeedLikeRequest;
-import me.devksh930.practice.service.FeedLikeService;
+import me.devksh930.practice.like.dto.FeedLikeRequest;
+import me.devksh930.practice.like.service.FeedLikeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

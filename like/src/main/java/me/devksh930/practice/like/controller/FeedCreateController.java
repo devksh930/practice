@@ -1,9 +1,9 @@
-package me.devksh930.practice.controller;
+package me.devksh930.practice.like.controller;
 
 import java.net.URI;
 import lombok.RequiredArgsConstructor;
-import me.devksh930.practice.dto.FeedCreateRequest;
-import me.devksh930.practice.service.FeedCreateService;
+import me.devksh930.practice.like.dto.FeedCreateRequest;
+import me.devksh930.practice.like.service.FeedCreateService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

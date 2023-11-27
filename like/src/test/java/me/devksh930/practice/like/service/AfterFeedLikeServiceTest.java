@@ -1,13 +1,13 @@
-package me.devksh930.practice.service;
+package me.devksh930.practice.like.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import me.devksh930.practice.dto.FeedLikeRequest;
-import me.devksh930.practice.repository.FeedCounterRepository;
-import me.devksh930.practice.repository.FeedLikeRepository;
+import me.devksh930.practice.like.dto.FeedLikeRequest;
+import me.devksh930.practice.like.repository.FeedCounterRepository;
+import me.devksh930.practice.like.repository.FeedLikeRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

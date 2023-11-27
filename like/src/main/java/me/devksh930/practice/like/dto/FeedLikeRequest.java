@@ -1,4 +1,4 @@
-package me.devksh930.practice.dto;
+package me.devksh930.practice.like.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

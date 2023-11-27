@@ -1,10 +1,10 @@
-package me.devksh930.practice.service;
+package me.devksh930.practice.like.service;
 
 import lombok.RequiredArgsConstructor;
-import me.devksh930.practice.domain.Feed;
-import me.devksh930.practice.domain.FeedCounter;
-import me.devksh930.practice.dto.FeedCreateRequest;
-import me.devksh930.practice.repository.FeedRepository;
+import me.devksh930.practice.like.domain.Feed;
+import me.devksh930.practice.like.domain.FeedCounter;
+import me.devksh930.practice.like.dto.FeedCreateRequest;
+import me.devksh930.practice.like.repository.FeedRepository;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package me.devksh930.practice.domain;
+package me.devksh930.practice.like.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

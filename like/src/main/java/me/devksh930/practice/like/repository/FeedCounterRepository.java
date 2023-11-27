@@ -1,7 +1,7 @@
-package me.devksh930.practice.repository;
+package me.devksh930.practice.like.repository;
 
 import java.util.Optional;
-import me.devksh930.practice.domain.FeedCounter;
+import me.devksh930.practice.like.domain.FeedCounter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
